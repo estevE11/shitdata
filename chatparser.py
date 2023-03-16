@@ -8,7 +8,7 @@ name_id = {
 def parse_chat(path):
     data = open(path).read().split("\n")[8:-1]
     
-    count = [0, 0, 0]
+    count = [5, 6, 5]
 
     for line in data:
         msg = parse_msg(line)
